@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(157, 168, 172);
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(190, 122, 43);
+    background-color: rgb(44, 44, 112);
+}
+
+main #palin{
+    color: rgb(4, 57, 156);
+    text-align: center;
+}
+main #bt{
+    text-align: center;
+}
+main #entre{
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+    border: 2px solid rgb(21, 18, 107);
+}
+main #bt button{
+    background-color: rgb(207, 123, 27);
+    border-radius: 20px;
+    height: 30px;
+    border: 2px solid rgb(21, 18, 107);
+    color: rgb(21, 18, 107);
+}
+::placeholder{
+    color: rgb(189, 138, 81);
+     padding: 10px;
+}
+main div #resultado{
+    text-align: center;
+    color: rgb(21, 18, 107);
+}
+ #titlEjemplo{
+    text-align: center;
+    color: rgb(21, 18, 107);
+}
+main #ejemplos{
+    justify-content: center;
+    text-align: center;
+    color: rgb(75, 75, 102);
+
+    
+
+}
