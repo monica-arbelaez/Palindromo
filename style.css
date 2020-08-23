@@ -1,17 +1,18 @@
 body{
-    background-color: rgb(157, 168, 172);
+    background-color: rgb(240, 240, 240);
 }
 #header{
     display: flex;
     flex-direction: column;
     text-align: center;
-    color: rgb(190, 122, 43);
-    background-color: rgb(44, 44, 112);
+    color: rgb(246, 193, 131);
+    background-color: rgb(5, 5, 36);
 }
 
 main #palin{
-    color: rgb(4, 57, 156);
+    color: rgb(0, 10, 29);
     text-align: center;
+    padding: 20px;
 }
 main #bt{
     text-align: center;
@@ -20,14 +21,14 @@ main #entre{
     border-radius: 20px;
     width: 500px;
     height: 30px;
-    border: 2px solid rgb(21, 18, 107);
+    border: 2px solid  rgb(5, 5, 36);
 }
 main #bt button{
-    background-color: rgb(207, 123, 27);
+    background-color: rgb(90, 90, 107);
     border-radius: 20px;
     height: 30px;
-    border: 2px solid rgb(21, 18, 107);
-    color: rgb(21, 18, 107);
+    border: 2px solid  rgb(5, 5, 36);
+    color:  rgb(5, 5, 36);
 }
 ::placeholder{
     color: rgb(189, 138, 81);
@@ -44,8 +45,17 @@ main div #resultado{
 main #ejemplos{
     justify-content: center;
     text-align: center;
-    color: rgb(75, 75, 102);
+    color: rgb(182, 182, 200);
+    background-color: rgb(90, 90, 107);
+    margin: 50px 200px  ;
+    padding: 20px;
 
-    
-
+}
+@media (max-width: 700px){
+    main #entre{
+        width: 50%;
+    } 
+    main #ejemplos{
+        margin: 10px;
+    }
 }
